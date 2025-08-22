@@ -64,4 +64,4 @@ ls -lh /var/log/postgresql/
 ls -lh /var/log/mysql/
 ```
 
-![alt text](https://github.com/Nishanc07/log-rotate/blob/main/public/postgres_logs.png)
+![alt text](https://github.com/Nishanc07/log-rotate/blob/main/public/Screenshot%202025-08-22%20at%2011.47.58.png)
