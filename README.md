@@ -32,7 +32,7 @@ sudo -u postgres psql -c "SHOW log_filename;"
 sudo grep -i "log_error" /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
 
-![alt text](https://github.com/Nishanc07/backup_db/blob/main/public/Screenshot%202025-08-19%20at%2015.35.52.png)
+![alt text](https://github.com/Nishanc07/log-rotate/blob/main/public/logs_location.png)
 
 Step 2: Create Logrotate Config Files
 
@@ -55,7 +55,7 @@ sudo logrotate -f /etc/logrotate.d/mysql
 
 ```
 
-![alt text](https://github.com/Nishanc07/backup_db/blob/main/public/Screenshot%202025-08-19%20at%2015.35.52.png)
+![alt text](https://github.com/Nishanc07/log-rotate/blob/main/public/poatgres%2Bmysql.png)
 
 Step 4: Verify Logs
 
@@ -64,4 +64,4 @@ ls -lh /var/log/postgresql/
 ls -lh /var/log/mysql/
 ```
 
-![alt text](https://github.com/Nishanc07/backup_db/blob/main/public/Screenshot%202025-08-19%20at%2015.35.52.png)
+![alt text](https://github.com/Nishanc07/log-rotate/blob/main/public/postgres_logs.png)
